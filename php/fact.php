@@ -1,0 +1,16 @@
+ <?php
+function factorial ($n)
+{
+    if($n <= 1)
+    {
+        return 1;
+    }
+    else
+    {
+        return $n * factorial($n - 1);
+    }
+}
+echo "enter a number\n";
+fscanf(STDIN, "%d\n", $num);
+echo factorial($num);
+?>
