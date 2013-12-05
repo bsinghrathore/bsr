@@ -5,7 +5,7 @@ for i in 0..3
 s[j][i]=c[i][j]*3
 end
  end
-puts"array after operation"
+puts"array after operation\n"
 for k in 0..3
   for l in 0..3
 puts "#{s[k][l]}"
