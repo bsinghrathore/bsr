@@ -1,4 +1,4 @@
-def mul(c,d)
+def s(c,d)
 sum=[3],[3]
 for i in 0..3
   for j in 0..3
