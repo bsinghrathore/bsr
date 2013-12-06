@@ -1,7 +1,7 @@
 def l(c)
 large=c[0][0]
-for i in 0..3
-  for j in 0..3
+for i in 0..2
+  for j in 0..2
    if(c[i][j]>large)
      large=c[i][j]
     end
@@ -10,13 +10,14 @@ for i in 0..3
 puts"largest element\n #{large}"
 end
 
-  a=[3],[3]
+  a=Array.new(3)
   
  
 puts"enter a  array\n"
-for row in 0..3
-  for col in 0..3
-a[row][col]= gets;
+for row in 0..2
+a[row] = Array.new(3)
+  for col in 0..2
+a[row][col]= gets.chomp.to_i;
 end
  end
  l(a)
