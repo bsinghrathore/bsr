@@ -13,8 +13,7 @@ puts "#{sum[k][l]}"
 end 
  end
   end
- 
-a=Array.new(3)
+ a=Array.new(3)
 b=Array.new(3)
  for i in 0..2
   a[i] = Array.new(3)
