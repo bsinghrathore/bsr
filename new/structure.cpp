@@ -1,33 +1,31 @@
 
-struct Distance //English distance
+struct Distance 
 {
 int feet;
 float inches;
 };
-////////////////////////////////////////////////////////////////
-void engldisp( Distance ); //declaration
+
+void engldisp( Distance ); 
 #include<iostream.h>
 #include<conio.h>
 int main()
 {
-Distance d1, d2; //define two lengths
-//get length d1 from user
+Distance d1, d2; 
+
 cout << "Enter feet:"; cin >> d1.feet;
 cout << "Enter inches: "; cin >> d1.inches;
-//get length d2 from user
+
 cout << "\nEnter feet: "; cin >> d2.feet;
 cout << "Enter inches: "; cin >> d2.inches;
 cout << "\nd1 = ";
-engldisp(d1); //display length 1
+engldisp(d1); 
 cout << "\nd2 = ";
-engldisp(d2); //display length 2
+engldisp(d2); 
 cout << endl;
 getch();
 }
-//--------------------------------------------------------------
-// engldisp()
-// display structure of type Distance in feet and inches
-void engldisp( Distance dd ) //parameter dd of type Distance
+
+void engldisp( Distance dd ) 
 {
 cout << dd.feet << "\’-" << dd.inches << "\"";
 }
