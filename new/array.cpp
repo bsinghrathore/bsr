@@ -1,6 +1,5 @@
 #include<iostream.h>
 #include<conio.h>
-
 class Distance 
 {
 private:
@@ -9,13 +8,11 @@ float inches;
 public:
 void getdist() 
 {
-cout<< "Enter feet:"; 
-cin >> feet;
-cout << " Enter inches: "; 
-cin >> inches;
+cout << "\n Enter feet: "; cin >> feet;
+cout << " Enter inches: "; cin >> inches;
 }
 void showdist() 
-{ cout << feet << inches ; }
+{ cout << feet << "\’-" << inches ; }
 };
 
 int main()
